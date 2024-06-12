@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    color: white;
+  }
+  
+  .backButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .squareContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: white; /* Tiklerin beyaz olması için */
+  }
+  
+  .checked {
+    background-color: green;
+  }
+  
